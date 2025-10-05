@@ -8,7 +8,7 @@ public class Q39_Hollow_Reverse_StarPyramid {
             for(int j=1; j<=i-1; j++){ // for spaces
                 System.out.print(" ");
             }
-            for(int j=1; j<=n+1-i; j++){ // right triangle structure
+            for(int j=1; j<=n+1-i; j++){ // right triangle hz flipped structure
                 if(j==1 || i==1 || j==n+1-i) System.out.print("*"+" ");
                 else System.out.print(" "+" ");
             }
