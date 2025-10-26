@@ -1,6 +1,6 @@
-package Java_Language.Arrays;
+package Java_Language.Arrays_2D;
 import java.util.Scanner;
-public class Q_Distinct_Elements {
+public class Q16_Distinct_Elements {
     public static boolean rowCheck(int n, int[] row) {
         for (int j = 0; j < row.length; j++) {
             if (row[j] == n) return true;
