@@ -11,8 +11,5 @@ public class Q1_Star_Rectangle {
             }
             System.out.println();
         }
-        System.out.println(String.class.getClassLoader());/// Prints null (Because it's Primordial/Bootstrap!)
-        System.out.println(java.sql.SQLException.class.getClassLoader()); /// Check a class from the SQL package
-        System.out.println(Q1_Star_Rectangle.class.getClassLoader()); ///// Prints AppClassLoader
     }
 }

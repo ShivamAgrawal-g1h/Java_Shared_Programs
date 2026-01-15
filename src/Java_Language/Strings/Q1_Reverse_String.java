@@ -12,11 +12,11 @@ public class Q1_Reverse_String {
 //     System.out.println(reverse);
 
         //Method-2(best among all 3)
-//        StringBuilder sb = new StringBuilder(s);// or use StringBuffer in multithreaded program
+//        StringBuilder sb = new StringBuilder(s);
 //        sb.reverse();
 //        System.out.println(sb);
 
-        //Method-3(moderate, recursion)
+        //Method-3(moderate)
         s = reverse(s);
         System.out.println(s);
     }
