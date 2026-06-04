@@ -1,0 +1,16 @@
+package DSA_basics.Arrays;
+
+class Q4_KandaneAlgorithm {
+    int maxSubarraySum(int[] arr) {
+        // Code here
+        int maxSoFar = arr[0];
+        int currSum = arr[0];
+
+        for(int i = 1; i < arr.length; i++) {
+            currSum = Math.max(arr[i], currSum + arr[i]);
+            maxSoFar = Math.max(maxSoFar, currSum);
+        }
+
+        return maxSoFar;
+    }
+}
