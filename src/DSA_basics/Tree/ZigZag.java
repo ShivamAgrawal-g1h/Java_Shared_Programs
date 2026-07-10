@@ -6,7 +6,7 @@ class ZigZag {
     List<List<Integer>> zigzagLevelOrder(Node root) {
         List<List<Integer>> l = new ArrayList<>();
         if(root == null) return l;
-        Queue<Node> q = new LinkedList<>();
+        Queue<Node> q = new ArrayDeque<>();
         q.add(root);
         boolean flag = true;
         while( !q.isEmpty() ){
